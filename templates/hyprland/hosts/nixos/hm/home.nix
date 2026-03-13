@@ -639,6 +639,15 @@
     ];
   };
 
+  # minimal terminal based user friendly editor, good alternative to vi/vim
+  programs.micro = {
+    enable = true;
+    settings = {
+      colorscheme = "terminal";
+      background = false;
+    };
+  };
+
   # grep replacement
   programs.ripgrep = {
     enable = true;

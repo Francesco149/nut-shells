@@ -46,7 +46,7 @@
     micro # user friendly terminal-based text editor
   ];
 
-  environment.etc."xdg/micro/settings.json".text = builtins.toJSON {
+  environment.etc."root/.config/micro/settings.json".text = builtins.toJSON {
     colorscheme = "terminal";
     background = false;
   };
