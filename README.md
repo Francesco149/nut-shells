@@ -15,8 +15,7 @@ nix flake init -t github:Francesco149/nut-shells#<template>
 git init
 git add .
 
-# .. or adapt to your current system wide config.
-# just make sure to migrate everything over
+# generate hardware config for your current machine
 nixos-generate-config --dir ./hosts/nixos/ --force
 
 sudo nixos-rebuild boot --flake .#nixos
@@ -57,9 +56,7 @@ blank flake using nut
 
 tiling desktop with frosted catpuccino aesthetics
 
-![1](templates/hyprland/pics/1.png)
-
-![2](templates/hyprland/pics/2.png)
+<video src="templates/hyprland/pics/demo.mp4" controls></video>
 
 ---
 
