@@ -15,6 +15,11 @@ nix flake init -t github:Francesco149/nut-shells#<template>
 git init
 git add .
 
+# .. or adapt to your current system wide config.
+# just make sure to migrate everything over
+cp /etc/nixos/configuration.nix ./hosts/nixos/
+cp /etc/nixos/hardware-configuration.nix ./hosts/nixos/
+
 nixos-rebuild boot --flake .#nixos
 passwd headpats # if the flake has a non-root user, set the password
 reboot
