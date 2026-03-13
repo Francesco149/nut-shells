@@ -54,7 +54,7 @@ for name, desc, pics, vid in entries:
     for p in ([] if vid else pics):
         lines += ["", f"![{p.stem}]({p})"]
     if vid:
-        lines += ["", f'"![demo video]({vid})']
+        lines += ["", f'![demo video]({vid})']
     sections.append("\n".join(lines))
 
 table_rows = "\n".join(
