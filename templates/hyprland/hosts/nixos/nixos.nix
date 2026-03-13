@@ -47,7 +47,7 @@
   ];
 
   environment.etc."root/.config/micro/settings.json".text = builtins.toJSON {
-    colorscheme = "terminal";
+    colorscheme = "solarized";
     background = false;
   };
 

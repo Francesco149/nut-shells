@@ -643,7 +643,7 @@
   programs.micro = {
     enable = true;
     settings = {
-      colorscheme = "terminal";
+      colorscheme = "solarized";
       background = false;
     };
   };
