@@ -56,7 +56,7 @@ blank flake using nut
 
 tiling desktop with frosted catpuccino aesthetics
 
-<video src="templates/hyprland/pics/demo.gif" controls></video>
+"![demo video](templates/hyprland/pics/demo.gif)
 
 ---
 
