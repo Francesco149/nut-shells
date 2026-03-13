@@ -22,7 +22,7 @@ def screenshots(path: Path) -> list[Path]:
     return [p for p in (path / "pics" / f"{n}.png" for n in (1, 2)) if p.exists()]
 
 def demo(path: Path) -> Path | None:
-    p = path / "pics" / "demo.mp4"
+    p = path / "pics" / "demo.gif"
     return p if p.exists() else None
 
 templates = sorted(
