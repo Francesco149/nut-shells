@@ -21,13 +21,18 @@ cp /etc/nixos/configuration.nix ./hosts/nixos/
 cp /etc/nixos/hardware-configuration.nix ./hosts/nixos/
 
 sudo nixos-rebuild boot --flake .#nixos
-sudo passwd headpats # if the flake has a non-root user, set the password
 sudo reboot
+
+# log in as headpats with password changeme and change your password.
+# NOTE: some templates like the default one have no users,
+# so you just log in as root with your root password
+passwd
 ```
 
-if there's a non-root user, the default username is always `headpats` with no
-password configured. remember to run `passwd headpats` or whatever you rename
-the user to.
+if there's a non-root user, the default username is always `headpats` with
+`changeme` as the initial password. remember to run `passwd` to change it, then
+remove `users.users.headpats.initialPassword = "changeme";` in
+`hosts/nixos/nixos.nix` .
 
 if for whatever reason the config doesn't boot, you can select the previous
 generation in grub to roll back. NixOS perks!

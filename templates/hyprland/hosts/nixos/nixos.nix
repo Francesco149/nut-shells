@@ -1,6 +1,9 @@
 # machine-specific config goes here
 { pkgs, ... }:
 {
+  # NOTE: change your password and remove this
+  users.users.headpats.initialPassword = "changeme";
+
   # NOTE: remember to add at least one ssh key if you need ssh access
   nut.ssh.authorizedKeys = [
     "ssh-ed25519 ... user@machine"
