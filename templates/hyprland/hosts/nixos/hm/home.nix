@@ -507,7 +507,7 @@
   programs.fish = {
     enable = true;
     shellAliases = {
-      cat = "XTERM=xterm-256color bat";
+      cat = "TERM=xterm-256color bat";
       grep = "rg";
       du = "dust";
       f = "xdg-open";
