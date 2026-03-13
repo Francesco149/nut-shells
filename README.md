@@ -17,8 +17,7 @@ git add .
 
 # .. or adapt to your current system wide config.
 # just make sure to migrate everything over
-cp /etc/nixos/configuration.nix ./hosts/nixos/
-cp /etc/nixos/hardware-configuration.nix ./hosts/nixos/
+nixos-generate-config --dir ./hosts/nixos/ --force
 
 sudo nixos-rebuild boot --flake .#nixos
 sudo reboot
