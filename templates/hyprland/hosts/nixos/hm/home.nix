@@ -517,7 +517,7 @@
 
       # TERM fixes not being able to type when searching with /
       man = "TERM=xterm-256color batman";
-      less = "TERM=xterm-256color less";
+      less = "more"; # less is more haha get it
     };
 
     functions.ns = {
