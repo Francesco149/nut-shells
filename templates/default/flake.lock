@@ -45,11 +45,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1773405377,
-        "narHash": "sha256-J8rlriGd4sfeqSr4rDJw5yQaevehT/hpIDxKNiJSxxU=",
+        "lastModified": 1773416516,
+        "narHash": "sha256-i6eSe6F6ogbp2llYTsqQi85sLgmChbel4+6S/yhJIWs=",
         "owner": "Francesco149",
         "repo": "nut",
-        "rev": "a1b9849bebd0965c89af3aed3dac19aa3b562beb",
+        "rev": "0b4219b9da5aa87772bca726df909fc4ea52fc3b",
         "type": "github"
       },
       "original": {
