@@ -334,7 +334,6 @@
     MOZ_GTK_TITLEBAR_DECORATION = "client";
     TERMINAL = "kitty";
     VISUAL = "zed";
-    LESS = "-R --no-lessopen"; # fix compat issue with searching
   };
 
   programs.firefox = {
@@ -518,6 +517,7 @@
 
       # TERM fixes not being able to type when searching with /
       man = "TERM=xterm-256color batman";
+      less = "TERM=xterm-256color less";
     };
 
     functions.ns = {
