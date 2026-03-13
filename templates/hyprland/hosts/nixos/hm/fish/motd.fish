@@ -1,0 +1,26 @@
+echo ""
+echo "  ALT +         Enter  terminal"
+echo "  ALT +         D      app launcher"
+echo "  ALT +         Q      close window"
+echo "  ALT +         HJKL   move focus"
+echo "  ALT +         1-4    switch workspace"
+echo "  ALT + Shift + 1-4    move window to workspace"
+echo "  ALT         + S      toggle scratchpad workspace"
+echo "  ALT + Shift + S      send to scratchpad workspace"
+echo "  ALT +         F      toggle fullscreen"
+echo "  ALT + Shift + F      toggle floating"
+echo
+echo "  ALT + Left Drag   move window"
+echo "  ALT + Right Drag  resize window"
+echo
+echo "  ALT + V  clipboard history"
+echo "  ALT + Y  open in video player (urls from clipboard)"
+echo
+echo "                Print  screenshot"
+echo "  ALT         + Print  screenshot region"
+echo "  ALT + Shift + Print  screenshot active window"
+echo 
+echo "  F1 to search and run keybinds"
+echo ""
+echo "Edit your home.nix to remove or change this message"
+echo ""
