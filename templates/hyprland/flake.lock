@@ -68,13 +68,13 @@
         "lastModified": 1773189051,
         "narHash": "sha256-CiiTk/id0qBgPaF+KaDiNpciVmWKuNyDaa+AJNgoaNY=",
         "owner": "Francesco149",
-        "repo": "nix-utils",
+        "repo": "nut",
         "rev": "8a3a094558b201ae96b5a9e7779e6b4bf21ab1e8",
         "type": "github"
       },
       "original": {
         "owner": "Francesco149",
-        "repo": "nix-utils",
+        "repo": "nut",
         "type": "github"
       }
     },
