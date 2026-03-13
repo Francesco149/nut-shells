@@ -79,8 +79,8 @@ cp /etc/nixos/configuration.nix ./hosts/nixos/
 cp /etc/nixos/hardware-configuration.nix ./hosts/nixos/
 
 sudo nixos-rebuild boot --flake .#nixos
-passwd headpats # if the flake has a non-root user, set the password
-reboot
+sudo passwd headpats # if the flake has a non-root user, set the password
+sudo reboot
 ```
 
 if there's a non-root user, the default username is always `headpats` with no
